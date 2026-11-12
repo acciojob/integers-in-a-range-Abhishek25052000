@@ -5,7 +5,7 @@ function range(start, end){
 	for(var i=start; i<=end; i++){
 		num.push(i);
 	}
-	alert(num);
+	return num;
 }
 // do not change the code below.
 let start = parseInt(prompt("Enter Start of the Range."));
